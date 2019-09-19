@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <title>hackathing 1</title>
+</head>
+
+<body>
+  <h1 id="headline">d3.js tutorial</h1>
+  <div>
+    <p class="theclass">sup</p>
+    <span class="theclass">test</span>
+  </div>
+  <div>
+    <p>D3</label><input type="checkbox" />
+      <p>jQuery</label><input type="checkbox" />
+  </div>
+
+  <script src="d3data.js"></script>
+  <script>
+    d3.select("h1").style("color", "green");
+    d3.selectAll(".theclass").style("color", "blue")
+    d3.select("body").append("p").text("another paragraph")
+    d3.select("div").insert("p").text("inserted p")
+    // can also use remove
+    d3.select("p.theclass").html("<span>this was added in html</span>")
+    d3.select("span.theclass").attr("class", "error")
+    d3.select("input").property("checked", true)
+    d3.select("p").classed('myclass', true)
+
+    // can chain methods together: 
+    d3.select("body").append("p").text("chaining woot")
+  </script>
+
+
+</body>
