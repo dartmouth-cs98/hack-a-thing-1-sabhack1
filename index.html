@@ -7,6 +7,16 @@
 
 <body>
   <h1 id="headline">d3.js tutorial</h1>
+  <div class="datastuff">
+    <p>hi</p>
+    <p>bye</p>
+  </div>
+  <div class="datastuff2">
+    <p>this wont</p>
+    <p>showup</p>
+  </div>
+  <div class="datastuff3">
+  </div>
   <div>
     <p class="theclass">sup</p>
     <span class="theclass">test</span>
@@ -15,8 +25,10 @@
     <p>D3</label><input type="checkbox" />
       <p>jQuery</label><input type="checkbox" />
   </div>
-
+  <div class="animationBars"></div>
   <script src="d3data.js"></script>
+  <script src="d3events.js"></script>
+  <script src="d3data-from-files.js"></script>
   <script>
     d3.select("h1").style("color", "green");
     d3.selectAll(".theclass").style("color", "blue")
