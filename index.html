@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script type="module" src='neighborhoods.js'></script>
+  <link rel="stylesheet" href="style.css" />
   <title>hackathing 1</title>
 </head>
 
@@ -13,7 +12,17 @@
     <rect x="50" width="15" fill="#228B22"></rect>
     <rect x="75" width="15" fill="#228B22"></rect>
   </svg> -->
-  <script src="maptime-demo.js"></script>
+  <!-- <script src="charttime.js"></script> -->
+  <h1>Rodent Incidents in Boston</h1>
+  <h2></h2>
+  <h3></h3>
+  <div id="sliderContainer">
+    <input id="timeslide" type="range" min="0" max="11" value="0" step="1" /><br>
+    <span id="range">January</span>
+  </div>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="module" src='ratmap.js'></script>
+
 </body>
 <!-- 
 <body>
