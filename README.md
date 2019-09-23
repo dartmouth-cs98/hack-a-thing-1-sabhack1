@@ -13,4 +13,5 @@ The first couple of tutorials were just getting the basics down, so I've left th
 
 The maptime boston tutorial was a fun way to see how this could be applied to a (sort of) real world situation - I chose to do this because I wanted to see how geoJSON data could be used with d3, and it is actually quite simple. The MIT tutorial of the same rat-map thing was an expansion on the basic map, which was cool to do as it involved more than just static shapes -- added events, and a time slider.
 
-The second tutorial from MIT was a TopoJSON tutorial, which was something I had never heard of before despite working a lot with geoJSON this summer. 
+The second tutorial from MIT was a TopoJSON tutorial, which was something I had never heard of before despite working a lot with geoJSON this summer. This tutorial teaches how to make a chloropleth map. I had some trouble figuring out the different functions such as `mesh` and `queue`, but after some side research I was able to understand more of what was going on. 
+**to access this tutorial, run the project locally and go to `localhost:[port]/index2.html`**
