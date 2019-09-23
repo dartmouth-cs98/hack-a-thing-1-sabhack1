@@ -63,7 +63,8 @@ function ready(error, us, unemployment, counties) {
 
   // only show state outlines
   svg.append("path")
-    .datum(topojson.mesh(us, us.objects.states, function () { return false }))
-    .attr("class", "states")
+    .datum(topojson.mesh(us, us.objects.states, (a, b) => a !== b))
+    .attr("fill", "none")
+    .attr("stroke", "white")
     .attr("d", path);
 }
